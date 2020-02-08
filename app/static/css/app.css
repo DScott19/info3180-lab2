@@ -1,3 +1,67 @@
 body {
-    padding-top: 5rem;
+    padding-top: 3rem;
+    background-color:#7584ad;
+    color: white;
 }
+
+div.container{
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.top{
+background-color: #314570;
+margin-left:-150px;
+margin-right: -150px;
+}
+
+img{
+	border-radius: 50%;
+	height: 150px;
+	padding:15px;
+
+}
+
+.info{
+	display: grid;
+	grid-template-areas: "middle middle middle" 
+					"left center right";
+	width:35%;
+	margin:0 360px;
+	padding-top: 10px;
+}
+
+
+.num,.btn{
+	font-weight: bold;
+	color:black;
+}
+
+.posts{
+	grid-area:left;
+
+}
+
+.following{
+grid-area:center;
+
+}
+
+.followers{
+	grid-area: right;
+
+}
+
+.btn{
+	border-radius: 5px;
+	margin: 15px;
+	padding:0 30px;
+}
+
+p{
+	grid-area: middle;
+
+}
+

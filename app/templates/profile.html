@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="container">
+	<div class="top">
+		<img src="{{ url_for('static', filename='image/profile-pic.png')}}" alt="Profile Picture">
+		<h2>Deandra Scott </h2>
+		<span>@dscott</span>
+		<br>
+		<span>Kingston, Jamaica</span>
+		<br>
+		<span>Joined {{date}} </span>
+		<br>
+
+	</div>
+
+	<div class=info >
+
+		<p>I am smart and skillful with a love for creative art. I am up for any concerts, art shows etc. Just hit me up!!!!! </p>
+ 		<div class="posts">
+ 			<span class="num">10</span>
+			<br>
+			<span>Posts</span>
+ 		</div>
+ 
+ 		<div class="following">
+ 			<span class="num">594</span>
+			<br>
+			<span>Following</span>
+
+ 		</div>
+ 		<div class="followers">
+ 			<span class="num">540</span>
+			<br>
+			<span>Followers</span>
+ 		</div>
+	</div>
+	<button type="submit" class="btn"> Follow </button>
+</div>
+{% endblock %}
